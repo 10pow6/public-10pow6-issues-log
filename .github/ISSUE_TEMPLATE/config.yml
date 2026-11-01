@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💬 Community Discord
-    url: https://discord.gg/6tr2kHcJ2b
-    about: Questions, help, and general discussion? Join us on Discord.
+    url: https://10pow6.com
+    about: Questions, help, and general discussion? Join us on Discord (linked from the 10pow6 site).
   - name: 🌀 TelePortals issue? (short links, My Portals, Exchange)
     url: https://github.com/10pow6/public-teleportals-issues-log/issues/new/choose
     about: Report problems inside TelePortals on its own tracker.

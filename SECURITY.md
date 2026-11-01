@@ -22,7 +22,7 @@ This includes (but is not limited to):
 
 ## ✅ How to report privately
 
-Reach us through our community [**Discord**](https://discord.gg/6tr2kHcJ2b) and **send a direct message to a staff/admin member**. Let them know you have a security report, and please **do not post the details in any public channel**. A staff member will follow up with you privately.
+Reach us through our community **Discord** (linked from [10pow6.com](https://10pow6.com)) and **send a direct message to a staff/admin member**. Let them know you have a security report, and please **do not post the details in any public channel**. A staff member will follow up with you privately.
 
 When you report, include as much as you can:
 

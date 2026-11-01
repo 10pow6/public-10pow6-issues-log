@@ -39,7 +39,7 @@ Not sure? File it here and we'll move it.
 
 ## 💬 Want to chat instead?
 
-Join the community on [**Discord**](https://discord.gg/6tr2kHcJ2b) for live discussion, help, and announcements. GitHub issues are best for things we need to track and fix; Discord is best for questions and conversation.
+Join the community on **Discord** (linked from [10pow6.com](https://10pow6.com)) for live discussion, help, and announcements. GitHub issues are best for things we need to track and fix; Discord is best for questions and conversation.
 
 ---
 
