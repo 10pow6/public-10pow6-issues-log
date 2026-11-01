@@ -46,6 +46,7 @@ Join the community on **Discord** (linked from [10pow6.com](https://10pow6.com))
 ## How we handle issues
 
 - We triage new issues and apply labels (e.g. `bug`, `enhancement`, `needs-info`, `confirmed`, `wontfix`).
+- Bug reports are labeled `env: beta` or `env: prod` from the **Environment** you pick, so tell us where you saw it.
 - If we need more detail we'll add `needs-info` and comment — please reply, or we may close the issue after a while.
 - Fixed issues are closed with a note. Shipped features are closed when they go live.
 - This is the canonical place to see **what's reported and what's planned** for 10pow6 core.
