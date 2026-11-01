@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discord
+    url: https://discord.gg/6tr2kHcJ2b
+    about: Questions, help, and general discussion? Join us on Discord.
+  - name: 🌀 TelePortals issue? (short links, My Portals, Exchange)
+    url: https://github.com/10pow6/public-teleportals-issues-log/issues/new/choose
+    about: Report problems inside TelePortals on its own tracker.
+  - name: 👾 BitGlitch issue? (the game)
+    url: https://github.com/10pow6/public-bitglitch-issues-log/issues/new/choose
+    about: Report problems inside BitGlitch on its own tracker.
+  - name: 🌍 Slapget issue? (map, parcels, desktop engine)
+    url: https://github.com/10pow6/public-slapget-issues-log/issues/new/choose
+    about: Report problems inside Slapget on its own tracker.
+  - name: 👤 Open 10pow6 Accounts
+    url: https://accounts.10pow6.com
+    about: Your account, security, wallet, and connections.

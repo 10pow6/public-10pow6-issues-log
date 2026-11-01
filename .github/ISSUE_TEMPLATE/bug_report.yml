@@ -1,0 +1,131 @@
+name: 🐛 Bug Report
+description: Report something broken in your 10pow6 account, wallet, or the 10pow6.com site.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! 🐛
+
+        **Before you start:** please [search existing issues](https://github.com/10pow6/public-10pow6-issues-log/issues?q=is%3Aissue) to avoid duplicates.
+
+        **Problem inside a product?** Use its tracker instead: [TelePortals](https://github.com/10pow6/public-teleportals-issues-log/issues/new/choose) · [BitGlitch](https://github.com/10pow6/public-bitglitch-issues-log/issues/new/choose) · [Slapget](https://github.com/10pow6/public-slapget-issues-log/issues/new/choose).
+
+        ⚠️ **Security issue?** Stop — do not file it here. See our [Security Policy](https://github.com/10pow6/public-10pow6-issues-log/blob/main/SECURITY.md) and disclose privately via Discord.
+
+        🔑 **Never include** passwords, recovery codes, authenticator codes, API keys, or payment details. We will never ask for them.
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
+        - label: This is not a security vulnerability (those go through the Security Policy, not here).
+          required: true
+        - label: I've removed private data (email, codes, API keys, payment details) from this report and any screenshots.
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+      placeholder: After paying for a TP6 package, I was sent back to the wallet but the balance didn't change.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      description: Which part of 10pow6 is affected?
+      options:
+        - 10pow6.com site
+        - Sign-up / Sign-in
+        - Signing in to a product (TelePortals, BitGlitch, Slapget) with my 10pow6 account
+        - MFA / Recovery codes / Passkeys
+        - Account dashboard / Profile
+        - Wallet — Buying TP6 (checkout)
+        - Wallet — Balance / Transaction history
+        - Connections — Connected apps & spend limits
+        - Connections — API keys
+        - Connections — Recurring charges
+        - Consent screen (connecting an app)
+        - Transparency page
+        - Developers page
+        - UI / Display
+        - Other / Not sure
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      description: The address in your browser when it happened. Remove anything after a `?` if it looks like a code or token.
+      placeholder: https://accounts.10pow6.com/wallet
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us exactly how to trigger the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Do '...'
+        4. See the error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+      description: Include any error messages you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag and drop images here if the bug is visual. Crop out your email, balance, and anything private. (Optional but very helpful.)
+    validations:
+      required: false
+  - type: input
+    id: handle
+    attributes:
+      label: Display name (optional)
+      description: Helps us look into account-specific issues. Leave blank if you'd rather not share. Please don't post your email here.
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop / Laptop
+        - Mobile phone
+        - Tablet
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser & OS
+      description: e.g. Chrome 130 on Windows 11, Safari on iOS 18
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Any other context, how often it happens, recent changes, etc.
+    validations:
+      required: false

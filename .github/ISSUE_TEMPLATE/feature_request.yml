@@ -1,0 +1,70 @@
+name: ✨ Feature Request
+description: Suggest an improvement to your 10pow6 account, wallet, or the 10pow6.com site.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! ✨
+
+        **Before you start:** please [search existing issues](https://github.com/10pow6/public-10pow6-issues-log/issues?q=is%3Aissue) — if your idea already exists, add a 👍 or comment instead of opening a duplicate.
+
+        **Idea for a specific product?** Use its tracker instead: [TelePortals](https://github.com/10pow6/public-teleportals-issues-log/issues/new/choose) · [BitGlitch](https://github.com/10pow6/public-bitglitch-issues-log/issues/new/choose) · [Slapget](https://github.com/10pow6/public-slapget-issues-log/issues/new/choose).
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or opportunity does this address?
+      description: What's frustrating today, or what would make your account easier to use?
+      placeholder: It's hard to see which connected app spent the most TP6 this month.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Describe your idea
+      description: What would you like to see? Be as specific as you can.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area does this relate to?
+      options:
+        - 10pow6.com site
+        - Sign-up / Sign-in
+        - MFA / Recovery codes / Passkeys
+        - Account dashboard / Profile
+        - Wallet — Buying TP6
+        - Wallet — Balance / Transaction history
+        - Connections — Connected apps & spend limits
+        - Connections — API keys
+        - Connections — Recurring charges
+        - Transparency page
+        - Developers page / Integrations
+        - UI / Quality of life
+        - Something new
+        - Other / Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Any other approaches or workarounds you've thought about. (Optional)
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Mockups, examples from other services, or extra context. (Optional)
+    validations:
+      required: false
