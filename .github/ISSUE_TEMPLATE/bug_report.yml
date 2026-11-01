@@ -12,7 +12,7 @@ body:
 
         **Problem inside a product?** Use its tracker instead: [TelePortals](https://github.com/10pow6/public-teleportals-issues-log/issues/new/choose) · [BitGlitch](https://github.com/10pow6/public-bitglitch-issues-log/issues/new/choose) · [Slapget](https://github.com/10pow6/public-slapget-issues-log/issues/new/choose).
 
-        ⚠️ **Security issue?** Stop — do not file it here. See our [Security Policy](https://github.com/10pow6/public-10pow6-issues-log/blob/main/SECURITY.md) and disclose privately via Discord.
+        ⚠️ **Security issue?** Stop — do not file it here. See our [Security Policy](https://github.com/10pow6/public-10pow6-issues-log/blob/main/SECURITY.md) and [report it privately](https://github.com/10pow6/public-10pow6-issues-log/security/advisories/new).
 
         🔑 **Never include** passwords, recovery codes, authenticator codes, API keys, or payment details. We will never ask for them.
   - type: checkboxes

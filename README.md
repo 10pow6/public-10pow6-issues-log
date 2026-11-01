@@ -33,7 +33,7 @@ Not sure? File it here and we'll move it.
 
 ## 🔒 Security issues
 
-**Do not** open a public issue for security vulnerabilities. See [**SECURITY.md**](SECURITY.md) for how to disclose privately.
+**Do not** open a public issue for security vulnerabilities. [**Report it privately →**](https://github.com/10pow6/public-10pow6-issues-log/security/advisories/new) (see [**SECURITY.md**](SECURITY.md) for what to include and what's out of scope).
 
 > ⚠️ Reports involving **sign‑in, MFA, or recovery**, **TP6 balances or purchases**, connected‑app **spend limits**, **API keys**, or anything that could expose another user's account or wallet are **security‑sensitive**. Report those privately, not here.
 
